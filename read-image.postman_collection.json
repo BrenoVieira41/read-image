@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "c75934fc-9c09-4d39-81f3-a8b885c19fc5",
+		"name": "read-image",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15950439"
+	},
+	"item": [
+		{
+			"name": "read-image",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "troca-essa-parte"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3333/",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
